@@ -40,6 +40,8 @@ blockVar2 = "I'm a new2 block-scoped var";
 blockLet2 = "I'm a new2 block-scoped let";
 blockConst2 = "I'm a new2 block-scoped const";
 
-console.log(blockVar2);
-console.log(blockConst2);
-console.log(blockLet2);
+// console.log(blockVar2);
+// console.log(blockConst2);
+// console.log(blockLet2);
+
+console.log(Math.max(5, "10", true));
