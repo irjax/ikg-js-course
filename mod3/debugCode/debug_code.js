@@ -19,7 +19,15 @@ function multiply(a, b) {
   debugger;
 
   // Multiply the numbers
-  return a * b;
+  let multiplyNo = a * b;
+
+  let addNo = a + b;
+
+  let subtractNo = a - b;
+
+  let divideNo = a / b;
+
+  return [multiplyNo, addNo, subtractNo, divideNo];
 }
 
 function displayResult(result) {
