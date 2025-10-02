@@ -5,8 +5,8 @@ function showWeatherDetails(event) {
   const apiKey = "1b45dad35e1ab1b14607a8fae381b229";
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
-  console.log("city", city);
-  console.log("apiUrl", apiUrl);
+  //   console.log("city", city);
+  //   console.log("apiUrl", apiUrl);
 
   fetch(apiUrl)
     .then((response) => response.json())
